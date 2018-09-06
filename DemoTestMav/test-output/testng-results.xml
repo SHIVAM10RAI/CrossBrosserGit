@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Total no. of Links = 155]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[Total no. of Links = 49]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48232" started-at="2018-09-06T03:37:05Z" finished-at="2018-09-06T03:37:53Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="31512" started-at="2018-09-06T03:37:05Z" finished-at="2018-09-06T03:37:36Z">
+      <class name="test.TestFb">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:test.TestFb@14bf9759]" name="before" is-config="true" duration-ms="12238" started-at="2018-09-06T03:37:05Z" finished-at="2018-09-06T03:37:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:test.TestFb@14bf9759]" name="facebookTest" duration-ms="17540" started-at="2018-09-06T03:37:17Z" finished-at="2018-09-06T03:37:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total no. of Links = 155]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- facebookTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.TestFb@14bf9759]" name="close" is-config="true" duration-ms="1638" started-at="2018-09-06T03:37:35Z" finished-at="2018-09-06T03:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TestFb -->
+    </test> <!-- chromeTest -->
+    <test name="firefoxTest" duration-ms="48232" started-at="2018-09-06T03:37:05Z" finished-at="2018-09-06T03:37:53Z">
+      <class name="test.TestFb">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:test.TestFb@42d80b78]" name="before" is-config="true" duration-ms="38759" started-at="2018-09-06T03:37:05Z" finished-at="2018-09-06T03:37:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:test.TestFb@42d80b78]" name="facebookTest" duration-ms="6876" started-at="2018-09-06T03:37:44Z" finished-at="2018-09-06T03:37:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total no. of Links = 49]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- facebookTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.TestFb@42d80b78]" name="close" is-config="true" duration-ms="2492" started-at="2018-09-06T03:37:51Z" finished-at="2018-09-06T03:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TestFb -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
