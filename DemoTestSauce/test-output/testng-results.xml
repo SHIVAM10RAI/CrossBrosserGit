@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[Total no. of Links = 155]]>
+      <![CDATA[Total no. of Links = 161]]>
     </line>
     <line>
       <![CDATA[Title is matching]]>
@@ -14,12 +14,12 @@
       <![CDATA[Title is matching]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="48232" started-at="2018-09-06T03:37:05Z" finished-at="2018-09-06T03:37:53Z">
+  <suite name="Suite" duration-ms="58152" started-at="2018-09-06T10:40:23Z" finished-at="2018-09-06T10:41:21Z">
     <groups>
     </groups>
-    <test name="chromeTest" duration-ms="31512" started-at="2018-09-06T03:37:05Z" finished-at="2018-09-06T03:37:36Z">
+    <test name="chromeTest" duration-ms="38907" started-at="2018-09-06T10:40:23Z" finished-at="2018-09-06T10:41:02Z">
       <class name="test.TestFb">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:test.TestFb@14bf9759]" name="before" is-config="true" duration-ms="12238" started-at="2018-09-06T03:37:05Z" finished-at="2018-09-06T03:37:17Z">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:test.TestFb@14bf9759]" name="before" is-config="true" duration-ms="15793" started-at="2018-09-06T10:40:23Z" finished-at="2018-09-06T10:40:39Z">
           <params>
             <param index="0">
               <value>
@@ -30,25 +30,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="facebookTest()[pri:0, instance:test.TestFb@14bf9759]" name="facebookTest" duration-ms="17540" started-at="2018-09-06T03:37:17Z" finished-at="2018-09-06T03:37:35Z">
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:test.TestFb@14bf9759]" name="facebookTest" duration-ms="22038" started-at="2018-09-06T10:40:39Z" finished-at="2018-09-06T10:41:01Z">
           <reporter-output>
             <line>
-              <![CDATA[Total no. of Links = 155]]>
+              <![CDATA[Total no. of Links = 161]]>
             </line>
             <line>
               <![CDATA[Title is matching]]>
             </line>
           </reporter-output>
         </test-method> <!-- facebookTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:test.TestFb@14bf9759]" name="close" is-config="true" duration-ms="1638" started-at="2018-09-06T03:37:35Z" finished-at="2018-09-06T03:37:36Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:test.TestFb@14bf9759]" name="close" is-config="true" duration-ms="1024" started-at="2018-09-06T10:41:01Z" finished-at="2018-09-06T10:41:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- test.TestFb -->
     </test> <!-- chromeTest -->
-    <test name="firefoxTest" duration-ms="48232" started-at="2018-09-06T03:37:05Z" finished-at="2018-09-06T03:37:53Z">
+    <test name="firefoxTest" duration-ms="58152" started-at="2018-09-06T10:40:23Z" finished-at="2018-09-06T10:41:21Z">
       <class name="test.TestFb">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:test.TestFb@42d80b78]" name="before" is-config="true" duration-ms="38759" started-at="2018-09-06T03:37:05Z" finished-at="2018-09-06T03:37:44Z">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:test.TestFb@42d80b78]" name="before" is-config="true" duration-ms="44757" started-at="2018-09-06T10:40:23Z" finished-at="2018-09-06T10:41:08Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="facebookTest()[pri:0, instance:test.TestFb@42d80b78]" name="facebookTest" duration-ms="6876" started-at="2018-09-06T03:37:44Z" finished-at="2018-09-06T03:37:51Z">
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:test.TestFb@42d80b78]" name="facebookTest" duration-ms="10731" started-at="2018-09-06T10:41:08Z" finished-at="2018-09-06T10:41:19Z">
           <reporter-output>
             <line>
               <![CDATA[Total no. of Links = 49]]>
@@ -69,7 +69,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- facebookTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:test.TestFb@42d80b78]" name="close" is-config="true" duration-ms="2492" started-at="2018-09-06T03:37:51Z" finished-at="2018-09-06T03:37:53Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:test.TestFb@42d80b78]" name="close" is-config="true" duration-ms="2623" started-at="2018-09-06T10:41:19Z" finished-at="2018-09-06T10:41:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
