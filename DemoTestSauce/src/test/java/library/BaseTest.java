@@ -20,7 +20,8 @@ public class BaseTest implements Constants {
 	@Parameters("myBrowser")
 	
 	public void before(String myBrowser) throws MalformedURLException {
-		
+		 
+		//DesiredCapabilities caps = DesiredCapabilities.firefox().chrome();
 		
 		if(myBrowser.equalsIgnoreCase("firefox"))
 		{
@@ -28,13 +29,10 @@ public class BaseTest implements Constants {
 			    caps.setCapability("platform", "Windows 10");
 			    caps.setCapability("version", "38.0");
 			    driver = new RemoteWebDriver(new java.net.URL(URL), caps);
-			/*System.setProperty(GECKO_KEY, GECKO_PATH);
-			driver=new FirefoxDriver();*/
 			
 		}
 		else if(myBrowser.equalsIgnoreCase("chrome")){
-	   /*System.setProperty(CHROME_KEY, CHROME_PATH);
-	   driver=new ChromeDriver();*/
+	  
 	   DesiredCapabilities caps = DesiredCapabilities.chrome();
 	    caps.setCapability("platform", "Windows 10");
 	    caps.setCapability("version", "38.0");

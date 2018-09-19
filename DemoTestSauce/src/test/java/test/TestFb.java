@@ -8,17 +8,17 @@ import library.BaseTest;
 import pom.FacebookGooglePO;
 import pom.GooglePO;
 
-public class TestFb extends BaseTest{
+public class TestFb extends BaseTest {
 	
 	@Test
-	public void facebookTest() {
+	public void facebookTest(){
 		try {
 			GooglePO googlePO=new GooglePO(driver);
 			googlePO.googleSrch("facebook");
 			FacebookGooglePO fbGoPO=new FacebookGooglePO(driver);
 			Reporter.log("Total no. of Links = "+fbGoPO.allLinksSize(),true);
 			fbGoPO.fbSrchResLink().click();
-			String eTitle="Facebook – log in or sign up";
+			String eTitle="Facebook - Log In or Sign Up";
 			fbGoPO.checkTitle(eTitle);
 			String aTitle = driver.getTitle();
 			Assert.assertEquals(aTitle, eTitle);
